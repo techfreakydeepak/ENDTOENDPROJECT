@@ -17,22 +17,12 @@ setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-         #List your dependencies here
         'numpy',
         'pandas',
-         'scikit-learn',
-         'matplotlib',
-         'seaborn',
-         'tensorflow',
-         'ipykernel',
+        'scikit-learn',
+        'matplotlib',
+        'seaborn',
+        'tensorflow',
+        'ipykernel',
     ]
-)
-
-setup(
-    name='GemstonePricePrediction',
-    version='0.0.1',
-    author='Deepak Singh',
-    author_email='itsdeepaksingh00@gmail.com',
-    install_requires=["scikit-learn","pandas","numpy"],
-    packages=find_packages()
 )
