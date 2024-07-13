@@ -27,3 +27,12 @@ setup(
          'ipykernel',
     ]
 )
+
+setup(
+    name='GemstonePricePredictio',
+    version='0.0.1',
+    author='Deepak Singh',
+    author_email='itsdeepaksingh00@gmail.com',
+    install_requires=["scikit-learn","pandas","numpy"],
+    packages=find_packages()
+)
