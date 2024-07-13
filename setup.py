@@ -29,7 +29,7 @@ setup(
 )
 
 setup(
-    name='GemstonePricePredictio',
+    name='GemstonePricePrediction',
     version='0.0.1',
     author='Deepak Singh',
     author_email='itsdeepaksingh00@gmail.com',
